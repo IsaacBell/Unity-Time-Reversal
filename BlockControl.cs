@@ -45,7 +45,7 @@ public class BlockControl : MonoBehavior {
 			case true:
 				Record();
 				break;
-			case fase:
+			case false:
 				Rewind();
 				break;
 		}
